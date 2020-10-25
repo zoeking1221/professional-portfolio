@@ -1,1 +1,1 @@
-# professional-portfolio
+A professional portfolio to be utilized during job search within the web development industy. Includes about-me, links to recent projects, and contact information.
