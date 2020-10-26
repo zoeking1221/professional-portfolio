@@ -19,6 +19,7 @@ header {
     padding: 20px 35px;
     background-image: url("../images/hero.png");
     height: 200px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     border-bottom: 2px solid #212738;
@@ -75,7 +76,7 @@ section {
 }
 
 .about-text {
-    width: 35%;
+    width: 55%;
     text-align: left;
     margin: 3.5%;
     }
@@ -85,7 +86,7 @@ section {
 .projects-grid-wrapper {
     display: flex;
     width: 100%;
-    justify-content: cetner;
+    justify-content: flex-start;
 }
 
 .projects-grid-container {
@@ -153,10 +154,48 @@ a {
     flex-wrap: wrap;
     color: #dc143c;
 }
+
 .contact-info a{
     color: #dc143c;
 }
 span {
     color: #d1d646;
     font-weight: bolder
+}
+
+/* media query for smaller desktop screens */
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+    header {
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
+}
+
+
+/* media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+
 }
