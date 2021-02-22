@@ -1,3 +1,5 @@
+/** @format */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -128,7 +130,7 @@ section {
 }
 
 .box4 {
-	background-image: url("../images/hero.png");
+	background-image: url("../images/developer.png");
 	color: #dc143c;
 	grid-column: 1/2;
 	grid-row: 3/4;
