@@ -137,7 +137,7 @@ section {
 }
 
 .box5 {
-	background-image: url("../images/hero.png");
+	background-image: url("../images/dungeon-masters-guide.png");
 	color: #dc143c;
 	grid-column: 2/3;
 	grid-row: 3/4;
